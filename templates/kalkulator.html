@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Best calc tool. Ever.</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Let's Kalkulator!</h1>
+
+    <p class="text-decor">Kalkulirajmo:)</p><br>
+    <form method="post">
+        <input name="stevilo-1">
+        <select name="operand">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+        <input name="stevilo-2">
+        <button type="submit">Prekalkuliraj</button>
+    </form><br>
+    <p class="text-decor">Vnesel si: {{ vnos }}</p>
+    <p class="text-decor">Rezultat: {{ rezultat_racuna }}</p>
+</body>
+</html>
